@@ -1,0 +1,25 @@
+
+
+/* les elements du body  */
+.hero,ul,li,a{
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    margin-left: auto;
+    background-color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+}
+/* } pour centrer la div on utilise les element suivant */
+.card{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+/* hover pour colorer des que vous cliquer sur le boutton   */
+a:hover{
+background-color: rgb(241, 186, 7);
+}
